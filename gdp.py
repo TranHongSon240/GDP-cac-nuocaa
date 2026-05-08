@@ -9,7 +9,7 @@ from functools import wraps
 app = Flask(__name__)
 
 # --- CẤU HÌNH MONGO ---
-MONGO_URL = os.environ.get("MONGO_URL")
+MONGO_URL = "mongodb+srv://stranhong69_db_user:2sMUCLnoq2TfBk0V@cluster0.vqductx.mongodb.net/?appName=Cluster0"
 client = pymongo.MongoClient(MONGO_URL, tlsAllowInvalidCertificates=True)
 db = client["WorldData"]
 collection = db["Stats"]
