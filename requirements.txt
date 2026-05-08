@@ -1,3 +1,6 @@
 flask
-flask-cors
 pymongo
+dnspython
+pytz
+eventlet
+gunicorn
